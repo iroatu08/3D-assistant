@@ -11,7 +11,7 @@
     <div id="app">
       <div class="card-container">
         <div>
-          <img style="width: 150px; height: 150px" src="/9334180.jpg" alt="" />
+          <img style="width: 150px; height: 150px" src="/assistant.jpg" alt="" />
         </div>
         <div>
           <p class="card-content">Hello I'm an assistant</p>
@@ -19,11 +19,11 @@
       </div>
 
       <div class="button-container">
-        <button id="button1">Button 1</button>
-        <button id="button2">Button 2</button>
-        <button id="button3">Button 3</button>
-        <button id="button4">Button 4</button>
-        <button id="button5">Button 5</button>
+        <button id="button1">Bruno</button>
+        <button id="button2">Mark </button>
+        <button id="button3">Collins</button>
+        <button id="button4">James</button>
+        <button id="button5">John </button>
       </div>
 
       <div class="overlay"></div>
@@ -35,16 +35,13 @@
       const overlay = document.querySelector(".overlay");
 
       const contentMap = {
-        button1: "This is the first button",
-        button2: "This is the second button",
-        button3: "This is the third button",
-        button4: "This is the fourth button",
-        button5: "This is the fifth button",
+        button1: "Hello this is Bruno here! ",
+        button2: "Hello this is Mark here! ",
+        button3: "Hello this is Collins here!",
+        button4: "Hello this is James here! ",
+        button5: "Hello this is John here! ",
       };
 
-      // window.addEventListener("resize", () => {
-      //   height = window.innerHeight;
-      // });
 
       document
         .getElementById("button1")
@@ -89,7 +86,7 @@
         cardCont.style.bottom = "10px";
         cardCont.style.left = "10px";
         overlay.classList.remove("active");
-        cardContent.textContent = "Hello I'm an assistant";
+        cardContent.textContent = "Hello I'm an assistant here to help you!";
       });
     </script>
   </body>
